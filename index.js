@@ -33,7 +33,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   counter 2 uses a closure. You can tell because it searches for a variable outside of the function to preform the function..
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?
-  counter1      
+  counter1 would be good for if variable can only be accessed in the function and counter2 would be useful if you want to access variables outside of the function.      
 */
 
 // counter1 code
